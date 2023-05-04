@@ -1,0 +1,5 @@
+services:
+  web:
+    image: web_app
+    ports:
+      - "14450:14450"
