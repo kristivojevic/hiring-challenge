@@ -9,4 +9,7 @@ spec:
     - name: http
       port: 80
       targetPort: 14450
+    - name: https
+      port: 443
+      targetPort: 14450
   type: LoadBalancer
